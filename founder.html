@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+    <title>VVV Script Analyser</title>
+
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/grandprix.qodeinteractive.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.3" } };
+        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+
+
+    <link rel="stylesheet" href="css/de6c6.css" media="all" />
+    <link rel='stylesheet' id='rabbit_css-css' href='css/rbt-modules.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="css/revolution-slider.css" media="all" />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {}
+    </style>
+
+    <link rel="stylesheet" href="css/84bf4.css" media="all" />
+    <style id='grandprix-mikado-woo-inline-css' type='text/css'>
+        .page-id-14 .mkdf-content .mkdf-content-inner>.mkdf-container>.mkdf-container-inner,
+        .page-id-14 .mkdf-content .mkdf-content-inner>.mkdf-full-width>.mkdf-full-width-inner {
+            padding: 0;
+        }
+
+        @media only screen and (max-width: 1024px) {
+
+            .page-id-14 .mkdf-content .mkdf-content-inner>.mkdf-container>.mkdf-container-inner,
+            .page-id-14 .mkdf-content .mkdf-content-inner>.mkdf-full-width>.mkdf-full-width-inner {
+                padding: 0;
+            }
+        }
+
+        .page-id-14 .mkdf-content .mkdf-content-inner>.mkdf-container>.mkdf-container-inner,
+        .page-id-14 .mkdf-content .mkdf-content-inner>.mkdf-full-width>.mkdf-full-width-inner {
+            padding: 0;
+        }
+
+        @media only screen and (max-width: 1024px) {
+
+            .page-id-14 .mkdf-content .mkdf-content-inner>.mkdf-container>.mkdf-container-inner,
+            .page-id-14 .mkdf-content .mkdf-content-inner>.mkdf-full-width>.mkdf-full-width-inner {
+                padding: 0;
+            }
+        }
+
+        @media only screen and (max-width: 1024px) {
+
+            .page-id-14 .mkdf-title-holder,
+            .page-id-14 .mkdf-title-holder .mkdf-title-wrapper {
+                height: 230px !important;
+            }
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .page-id-14 .mkdf-title-holder .mkdf-title-image {
+                height: 230px !important;
+            }
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .page-id-14 .mkdf-title-holder .mkdf-title-image img {
+                display: none !important;
+            }
+        }
+
+        .page-id-14 .mkdf-page-footer .mkdf-footer-top-holder {
+            background-color: #0d0d0d;
+        }
+
+        .page-id-14 .mkdf-page-footer .mkdf-footer-bottom-holder {
+            background-color: #000000;
+        }
+    </style>
+    <link rel="stylesheet" href="css/62114.css" media="all" />
+    <link rel="stylesheet"
+        href='https://fonts.googleapis.com/css?family=Ubuntu%3A300%2C400%2C500%2C700%7CRajdhani%3A300%2C400%2C500%2C700%7CHeebo%3A300%2C400%2C500%2C700%7COswald%3A300%2C400%2C500%2C700&#038;subset=latin-ext&#038;ver=1.0.0'
+        type='text/css' media='all' />
+    <link rel="stylesheet" href="css/36f66.css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css"
+        integrity="sha512-0/rEDduZGrqo4riUlwqyuHDQzp2D1ZCgH/gFIfjMIL5az8so6ZiXyhf1Rg8i6xsjv+z/Ubc4tt1thLigEcu6Ug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="js/0b54c.js"></script>
+
+    <link rel="icon" href="https://grandprix.qodeinteractive.com/wp-content/uploads/2019/10/cropped-favicon-32x32.png"
+        sizes="32x32" />
+    <link rel="icon" href="https://grandprix.qodeinteractive.com/wp-content/uploads/2019/10/cropped-favicon-192x192.png"
+        sizes="192x192" />
+    <link rel="apple-touch-icon"
+        href="https://grandprix.qodeinteractive.com/wp-content/uploads/2019/10/cropped-favicon-180x180.png" />
+    <meta name="msapplication-TileImage"
+        content="https://grandprix.qodeinteractive.com/wp-content/uploads/2019/10/cropped-favicon-270x270.png" />
+    <script type="text/javascript">function setREVStartSize(e) {
+            //window.requestAnimationFrame(function() {				 
+            window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+            window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+            try {
+                var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                    newh;
+                pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+                e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+                e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+                e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+                e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+                e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+                e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+                e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+                if (e.layout === "fullscreen" || e.l === "fullscreen")
+                    newh = Math.max(e.mh, window.RSIH);
+                else {
+                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                    for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+                    e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                    for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+                    var nl = new Array(e.rl.length),
+                        ix = 0,
+                        sl;
+                    e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+                    e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+                    e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+                    e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+                    for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+                    sl = nl[0];
+                    for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
+                    var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+                    newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+                }
+                if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
+                document.getElementById(e.c).height = newh + "px";
+                window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
+            } catch (e) {
+                console.log("Failure at Presize of Slider:" + e)
+            }
+            //});
+        };</script>
+    <style type="text/css" id="wp-custom-css">
+        @media only screen and (min-width: 1921px) {
+            .mkdf-title-holder.mkdf-bg-parallax {
+                background-size: cover;
+            }
+
+            .mkdf-video-button-holder {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .mkdf-dual-image-carousel.swiper-container .swiper-wrapper .swiper-slide {
+                width: 42%;
+            }
+
+            .mkdf-dual-image-carousel.swiper-container .swiper-wrapper .swiper-slide .mkdf-slide-foreground-image-holder {
+                margin-top: -31%;
+            }
+        }
+    </style>
+    <style type="text/css" data-type="vc_custom-css">
+        .mkdf-dropdown-menu-opened .mkdf-menu-area .mkdf-main-menu>ul>li.mkdf-active-item,
+        .mkdf-dropdown-menu-opened .mkdf-menu-area .mkdf-search-widget .mkdf-search-field {
+            border-color: #a3a3a3;
+        }
+
+        .mkdf-dropdown-menu-opened .mkdf-menu-area .mkdf-main-menu>ul>li.mkdf-active-item:hover {
+            border-color: #fff;
+        }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1569486511810 {
+            padding-top: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+            padding-left: 0px !important;
+        }
+
+        .vc_custom_1569401551054 {
+            padding-top: 80px !important;
+            padding-bottom: 82px !important;
+        }
+
+        .vc_custom_1570695044315 {
+            padding-top: 138px !important;
+            padding-bottom: 145px !important;
+        }
+
+        .vc_custom_1571215734917 {
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+
+        .vc_custom_1568101793985 {
+            padding-top: 124px !important;
+        }
+
+        .vc_custom_1571218993752 {
+            padding-bottom: 124px !important;
+        }
+
+        .vc_custom_1570695129522 {
+            padding-top: 50px !important;
+            padding-bottom: 69px !important;
+            background-position: 0 0 !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .vc_custom_1567165389186 {
+            padding-bottom: 72px !important;
+        }
+
+        .vc_custom_1567501584072 {
+            padding-top: 122px !important;
+            padding-bottom: 87px !important;
+        }
+
+        .vc_custom_1568195832472 {
+            padding-top: 123px !important;
+            padding-bottom: 130px !important;
+        }
+
+        .vc_custom_1571823947303 {
+            background-image: url(./images/footer/footer.jpg) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1569486505540 {
+            padding-top: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+            padding-left: 0px !important;
+        }
+
+        .vc_custom_1567498531503 {
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+
+        .vc_custom_1568716522822 {
+            margin-top: -26px !important;
+        }
+
+        .vc_custom_1567499166117 {
+            padding-top: 123px !important;
+            padding-bottom: 122px !important;
+        }
+
+        .vc_custom_1569324557289 {
+            padding-top: 0px !important;
+            padding-bottom: 40px !important;
+        }
+
+        .vc_custom_1567499344778 {
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+
+        .vc_custom_1567165291303 {
+            padding-top: 124px !important;
+        }
+
+        .vc_custom_1567429896531 {
+            padding-top: 100px !important;
+            padding-bottom: 100px !important;
+        }
+
+        .vc_custom_1567431702419 {
+            padding-top: 130px !important;
+            padding-bottom: 130px !important;
+        }
+
+        .vc_custom_1567435453944 {
+            padding-top: 124px !important;
+            padding-bottom: 129px !important;
+        }
+    </style>
+</head>
+
+<body
+    class="page-template page-template-full-width page-template-full-width-php page page-id-1231 theme-grandprix grandprix-core-1.0.1 woocommerce-no-js qodef-qi--no-touch qi-addons-for-elementor-1.2.2 grandprix-ver-1.3 mkdf-grid-1300 mkdf-wide-dropdown-menu-content-in-grid mkdf-light-header mkdf-sticky-header-on-scroll-down-up mkdf-dropdown-animate-height mkdf-header-standard mkdf-menu-area-shadow-disable mkdf-menu-area-in-grid-shadow-disable mkdf-menu-area-border-disable mkdf-menu-area-in-grid-border-disable mkdf-logo-area-border-disable mkdf-logo-area-in-grid-border-disable mkdf-side-menu-slide-from-opener mkdf-woocommerce-columns-3 mkdf-woo-normal-space mkdf-woo-pl-info-below-image mkdf-woo-single-thumb-below-image mkdf-woo-single-has-pretty-photo mkdf-default-mobile-header mkdf-sticky-up-mobile-header mkdf-mip-off wpb-js-composer js-comp-ver-6.6.0 vc_responsive elementor-default elementor-kit-2793"
+    itemscope itemtype="https://schema.org/WebPage">
+    <div class="mkdf-wrapper">
+        <div class="mkdf-wrapper-inner">
+            <div class="mkdf-menu-cover"></div>
+            <header class="mkdf-page-header">
+                <div class="mkdf-menu-area mkdf-menu-center">
+                    <div class="mkdf-vertical-align-containers">
+                        <div class="mkdf-position-left">
+                            <div class="mkdf-position-left-inner">
+                                <div class="mkdf-logo-wrapper">
+                                    <a itemprop="url" href="#" style="height: 100px;">
+                                        <img itemprop="image" class="mkdf-normal-logo"
+                                            src="./images/logo/logo-white.png" alt="logo" />
+                                        <img itemprop="image" class="mkdf-dark-logo" src="./images/logo/logo-white.png"
+                                            alt="dark logo" /> <img itemprop="image" class="mkdf-light-logo"
+                                            src="./images/logo/logo-white.png" alt="light logo" /> </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mkdf-position-center">
+                            <div class="mkdf-position-center-inner">
+
+                            </div>
+                        </div>
+                        <div class="mkdf-position-right">
+                            <div class="mkdf-position-right-inner">
+                                <nav class="mkdf-main-menu mkdf-drop-down mkdf-default-nav">
+                                    <ul id="menu-main-menu" class="clearfix">
+                                        <li id="nav-menu-item-2109"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
+                                                href="index.html" class=""><span class="item_outer"><span
+                                                        class="item_text">Home</span></span></a>
+                                        </li>
+                                        <li id="nav-menu-item-124"
+                                            class="mkdf-ccmc-prepare menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
+                                            <a href="#" class=""><span class="item_outer"><span
+                                                        class="item_text">Screenplay</span><i
+                                                        class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+                                            <div class="second">
+                                                <div class="inner">
+                                                    <ul>
+                                                        <li id="nav-menu-item-1122"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                            <a href="screenplay-analysis.html" class=""><span
+                                                                    class="item_outer"><span
+                                                                        class="item_text">Screenplay
+                                                                        Analysis</span></span></a>
+                                                        </li>
+                                                        <li id="nav-menu-item-1160"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                            <a href="screenplay-development.html" class=""><span
+                                                                    class="item_outer"><span
+                                                                        class="item_text">Screenplay
+                                                                        Development</span></span></a>
+                                                        </li>
+                                                        <li id="nav-menu-item-1160"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                            <a href="screenplay-breakdown.html" class=""><span
+                                                                    class="item_outer"><span
+                                                                        class="item_text">Screenplay
+                                                                        Breakdown</span></span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li id="nav-menu-item-125"
+                                            class="mkdf-ccmc-prepare menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
+                                            <a href="pre-production.html" class=""><span class="item_outer"><span
+                                                        class="item_text">Pre-Production</span><i
+                                                        class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+                                            <div class="second">
+                                                <div class="inner">
+                                                    <ul>
+                                                        <li id="nav-menu-item-1122"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                            <a href="#" class=""><span class="item_outer"><span
+                                                                        class="item_text">SCREENWRITING
+                                                                        MENTOR</span></span></a>
+                                                        </li>
+                                                        <li id="nav-menu-item-1160"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                            <a href="#" class=""><span class="item_outer"><span
+                                                                        class="item_text">SCRIPT
+                                                                        TRANSLATION</span></span></a>
+                                                        </li>
+                                                        <li id="nav-menu-item-1160"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                            <a href="#" class=""><span class="item_outer"><span
+                                                                        class="item_text">OTT
+                                                                        PRESENTATION</span></span></a>
+                                                        </li>
+                                                        <li id="nav-menu-item-1160"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                            <a href="#" class=""><span class="item_outer"><span
+                                                                        class="item_text"> FILM BUDGETING
+                                                                    </span></span></a>
+                                                        </li>
+                                                        <li id="nav-menu-item-1160"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                            <a href="#" class=""><span class="item_outer"><span
+                                                                        class="item_text"> STORYBOARDING
+                                                                    </span></span></a>
+                                                        </li>
+                                                        <li id="nav-menu-item-1160"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                            <a href="#" class=""><span class="item_outer"><span
+                                                                        class="item_text"> PRE-VISUALIZATION
+                                                                    </span></span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li id="nav-menu-item-2109"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
+                                                href="founder.html" class=""><span class="item_outer"><span
+                                                        class="item_text">Founder</span></span></a>
+                                        </li>
+                                        <li id="nav-menu-item-2109"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a
+                                                href="contact.html" class=""><span class="item_outer"><span
+                                                        class="item_text">Connect</span></span></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mkdf-sticky-header">
+                    <div class="mkdf-sticky-holder mkdf-menu-center">
+                        <div class="mkdf-vertical-align-containers">
+                            <div class="mkdf-position-left">
+                                <div class="mkdf-position-left-inner">
+                                    <div class="mkdf-logo-wrapper">
+                                        <!-- <a itemprop="url" href="https://grandprix.qodeinteractive.com/"
+                                            style="height: 40px;">
+                                            <img itemprop="image" class="mkdf-normal-logo"
+                                                src="https://grandprix.qodeinteractive.com/wp-content/uploads/2019/09/borko-logo-black.png"
+                                                width="330" height="80" alt="logo" />
+                                            <img itemprop="image" class="mkdf-dark-logo"
+                                                src="https://grandprix.qodeinteractive.com/wp-content/uploads/2019/09/borko-logo-black.png"
+                                                width="330" height="80" alt="dark logo" /> <img itemprop="image"
+                                                class="mkdf-light-logo"
+                                                src="https://grandprix.qodeinteractive.com/wp-content/uploads/2019/09/borko-logo-white.png"
+                                                width="330" height="80" alt="light logo" /> </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mkdf-position-center">
+                                <div class="mkdf-position-center-inner">
+                                    <nav class="mkdf-main-menu mkdf-drop-down mkdf-sticky-nav">
+                                        <ul id="menu-main-menu-1" class="clearfix">
+                                            <li id="sticky-nav-menu-item-2109"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page  narrow">
+                                                <a href="#" class=""><span class="item_outer"><span
+                                                            class="item_text">Home</span><span
+                                                            class="plus"></span></span></a>
+                                            </li>
+                                            <li id="sticky-nav-menu-item-124"
+                                                class="mkdf-ccmc-prepare menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
+                                                <a href="#" class=""><span class="item_outer"><span
+                                                            class="item_text">Screenplay</span><span
+                                                            class="plus"></span><i
+                                                            class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+                                                <div class="second">
+                                                    <div class="inner">
+                                                        <ul>
+                                                            <li id="nav-menu-item-1122"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                            class="item_text">Screenplay
+                                                                            Analysis</span></span></a>
+                                                            </li>
+                                                            <li id="nav-menu-item-1160"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                            class="item_text">Screenplay
+                                                                            Development</span></span></a>
+                                                            </li>
+                                                            <li id="nav-menu-item-1160"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                            class="item_text">Screenplay
+                                                                            Breakdown</span></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li id="sticky-nav-menu-item-125"
+                                                class="mkdf-ccmc-prepare menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
+                                                <a href="#" class=""><span class="item_outer"><span
+                                                            class="item_text">Pre-Production</span><span
+                                                            class="plus"></span><i
+                                                            class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+                                                <div class="second">
+                                                    <div class="inner">
+                                                        <ul>
+                                                            <li id="nav-menu-item-1122"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                            class="item_text">SCREENWRITING
+                                                                            MENTOR</span></span></a>
+                                                            </li>
+                                                            <li id="nav-menu-item-1160"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                            class="item_text">SCRIPT
+                                                                            TRANSLATION</span></span></a>
+                                                            </li>
+                                                            <li id="nav-menu-item-1160"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                            class="item_text">OTT
+                                                                            PRESENTATION</span></span></a>
+                                                            </li>
+                                                            <li id="nav-menu-item-1160"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                            class="item_text"> FILM BUDGETING
+                                                                        </span></span></a>
+                                                            </li>
+                                                            <li id="nav-menu-item-1160"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                            class="item_text"> STORYBOARDING
+                                                                        </span></span></a>
+                                                            </li>
+                                                            <li id="nav-menu-item-1160"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                            class="item_text"> PRE-VISUALIZATION
+                                                                        </span></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li id="sticky-nav-menu-item-2109"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page  narrow">
+                                                <a href="#" class=""><span class="item_outer"><span
+                                                            class="item_text">Founder</span><span
+                                                            class="plus"></span></span></a>
+                                            </li>
+                                            <li id="sticky-nav-menu-item-2109"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page  narrow">
+                                                <a href="#" class=""><span class="item_outer"><span
+                                                            class="item_text">Connect</span><span
+                                                            class="plus"></span></span></a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="mkdf-position-right">
+                                <div class="mkdf-position-right-inner">
+                                    <a class="mkdf-side-menu-button-opener mkdf-side-menu-opener-trigger mkdf-icon-has-hover mkdf-side-menu-button-opener-predefined"
+                                        href="javascript:void(0)">
+                                        <span class="mkdf-side-menu-icon">
+                                            <span class="mkdf-sa-circles"><span
+                                                    class="mkdf-sa-circles-row mkdf-sa-row-1"><span></span><span></span><span></span><span></span></span><span
+                                                    class="mkdf-sa-circles-row mkdf-sa-row-2"><span></span><span></span><span></span><span></span></span><span
+                                                    class="mkdf-sa-circles-row mkdf-sa-row-3"><span></span><span></span><span></span><span></span></span></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <header class="mkdf-mobile-header">
+                <div class="mkdf-mobile-header-inner">
+                    <div class="mkdf-mobile-header-holder">
+                        <div class="mkdf-grid">
+                            <div class="mkdf-vertical-align-containers">
+                                <div class="mkdf-position-left">
+                                    <div class="mkdf-position-left-inner">
+                                        <div class="mkdf-mobile-logo-wrapper">
+                                            <a itemprop="url" href="https://grandprix.qodeinteractive.com/"
+                                                style="height: 40px">
+                                                <img itemprop="image"
+                                                    src="https://grandprix.qodeinteractive.com/wp-content/uploads/2019/09/borko-logo-black.png"
+                                                    width="330" height="80" alt="Mobile Logo" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mkdf-position-right">
+                                    <div class="mkdf-position-right-inner">
+                                        <div class="mkdf-mobile-menu-opener mkdf-mobile-menu-opener-predefined">
+                                            <a href="javascript:void(0)">
+                                                <span class="mkdf-mobile-menu-icon">
+                                                    <span class="mkdf-mm-circles"><span
+                                                            class="mkdf-mm-circles-row mkdf-mm-row-1"><span></span><span></span><span></span><span></span></span><span
+                                                            class="mkdf-mm-circles-row mkdf-mm-row-2"><span></span><span></span><span></span><span></span></span><span
+                                                            class="mkdf-mm-circles-row mkdf-mm-row-3"><span></span><span></span><span></span><span></span></span></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <nav class="mkdf-mobile-nav" role="navigation" aria-label="Mobile Menu">
+                        <div class="mkdf-grid">
+                            <ul id="menu-main-menu-2" class="">
+                                <li id="mobile-menu-item-428"
+                                    class="mkdf-ccmc-prepare menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub">
+                                    <a href="#" class=" current  mkdf-mobile-no-link"><span>Home</span></a><span
+                                        class="mobile_arrow"><i class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-1081"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home ">
+                                            <a href="https://grandprix.qodeinteractive.com/" class=""><span>Main
+                                                    Home</span></a>
+                                        </li>
+                                        <li id="mobile-menu-item-534"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/motorcycle-shop/"
+                                                class=""><span>Motorcycle Shop</span></a></li>
+                                        <li id="mobile-menu-item-425"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item ">
+                                            <a href="https://grandprix.qodeinteractive.com/racing-club/"
+                                                class=""><span>Racing Club</span></a>
+                                        </li>
+                                        <li id="mobile-menu-item-755"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/product-showcase/"
+                                                class=""><span>Product Showcase</span></a></li>
+                                    </ul>
+                                </li>
+                                <li id="mobile-menu-item-124"
+                                    class="mkdf-ccmc-prepare menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                    <a href="#" class=" mkdf-mobile-no-link"><span>Pages</span></a><span
+                                        class="mobile_arrow"><i class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-1122"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/about-me/"
+                                                class=""><span>About Me</span></a></li>
+                                        <li id="mobile-menu-item-1160"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/about-us/"
+                                                class=""><span>About Us</span></a></li>
+                                        <li id="mobile-menu-item-1345"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/our-services/"
+                                                class=""><span>Our services</span></a></li>
+                                        <li id="mobile-menu-item-893"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/pricing-plans/"
+                                                class=""><span>Pricing Plans</span></a></li>
+                                        <li id="mobile-menu-item-894"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/meet-the-team/"
+                                                class=""><span>Meet The Team</span></a></li>
+                                        <li id="mobile-menu-item-1121"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/contact-us/"
+                                                class=""><span>Contact Us</span></a></li>
+                                        <li id="mobile-menu-item-1344"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/get-in-touch/"
+                                                class=""><span>Get In Touch</span></a></li>
+                                    </ul>
+                                </li>
+                                <li id="mobile-menu-item-125"
+                                    class="mkdf-ccmc-prepare menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                    <a href="#" class=" mkdf-mobile-no-link"><span>Portfolio</span></a><span
+                                        class="mobile_arrow"><i class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-1025"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                            <h6><span>List Types</span></h6><span class="mobile_arrow"><i
+                                                    class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                            <ul class="sub_menu">
+                                                <li id="mobile-menu-item-1024"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/standard/"
+                                                        class=""><span>Standard</span></a></li>
+                                                <li id="mobile-menu-item-1023"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/gallery/"
+                                                        class=""><span>Gallery</span></a></li>
+                                                <li id="mobile-menu-item-1022"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/gallery-joined/"
+                                                        class=""><span>Gallery joined</span></a></li>
+                                                <li id="mobile-menu-item-1021"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/masonry/"
+                                                        class=""><span>Masonry</span></a></li>
+                                                <li id="mobile-menu-item-1020"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/masonry-joined/"
+                                                        class=""><span>Masonry joined</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="mobile-menu-item-1026"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                            <h6><span>List Layouts</span></h6><span class="mobile_arrow"><i
+                                                    class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                            <ul class="sub_menu">
+                                                <li id="mobile-menu-item-1019"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/2-columns/"
+                                                        class=""><span>2 Columns</span></a></li>
+                                                <li id="mobile-menu-item-1018"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/3-columns/"
+                                                        class=""><span>3 Columns</span></a></li>
+                                                <li id="mobile-menu-item-1016"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/3-columns-wide/"
+                                                        class=""><span>3 Columns wide</span></a></li>
+                                                <li id="mobile-menu-item-1017"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/4-columns/"
+                                                        class=""><span>4 Columns</span></a></li>
+                                                <li id="mobile-menu-item-1015"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/4-columns-wide/"
+                                                        class=""><span>4 Columns wide</span></a></li>
+                                                <li id="mobile-menu-item-1014"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/5-columns-wide/"
+                                                        class=""><span>5 Columns wide</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="mobile-menu-item-1470"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                            <h6><span>Hover Types</span></h6><span class="mobile_arrow"><i
+                                                    class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                            <ul class="sub_menu">
+                                                <li id="mobile-menu-item-1468"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/standard-move/"
+                                                        class=""><span>Standard – Move</span></a></li>
+                                                <li id="mobile-menu-item-1469"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/portfolio/overlay/"
+                                                        class=""><span>Overlay</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="mobile-menu-item-1028"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                            <h6><span>Single Types</span></h6><span class="mobile_arrow"><i
+                                                    class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                            <ul class="sub_menu">
+                                                <li id="mobile-menu-item-1064"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
+                                                    <a href="https://grandprix.qodeinteractive.com/portfolio-item/motogp-san-marino/"
+                                                        class=""><span>Images</span></a>
+                                                </li>
+                                                <li id="mobile-menu-item-1029"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
+                                                    <a href="https://grandprix.qodeinteractive.com/portfolio-item/category-motorsport/"
+                                                        class=""><span>Small images</span></a>
+                                                </li>
+                                                <li id="mobile-menu-item-1037"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
+                                                    <a href="https://grandprix.qodeinteractive.com/portfolio-item/supercross-season/"
+                                                        class=""><span>Slider</span></a>
+                                                </li>
+                                                <li id="mobile-menu-item-1030"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
+                                                    <a href="https://grandprix.qodeinteractive.com/portfolio-item/ready-to-race/"
+                                                        class=""><span>Small slider</span></a>
+                                                </li>
+                                                <li id="mobile-menu-item-1033"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
+                                                    <a href="https://grandprix.qodeinteractive.com/portfolio-item/women-of-motocross/"
+                                                        class=""><span>Gallery</span></a>
+                                                </li>
+                                                <li id="mobile-menu-item-1034"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
+                                                    <a href="https://grandprix.qodeinteractive.com/portfolio-item/se-gear-spotlight/"
+                                                        class=""><span>Small gallery</span></a>
+                                                </li>
+                                                <li id="mobile-menu-item-1035"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
+                                                    <a href="https://grandprix.qodeinteractive.com/portfolio-item/mtb-spotlight/"
+                                                        class=""><span>Masonry</span></a>
+                                                </li>
+                                                <li id="mobile-menu-item-1036"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-portfolio-item ">
+                                                    <a href="https://grandprix.qodeinteractive.com/portfolio-item/warehouse-review/"
+                                                        class=""><span>Small masonry</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id="mobile-menu-item-126"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                    <a href="#" class=" mkdf-mobile-no-link"><span>Blog</span></a><span
+                                        class="mobile_arrow"><i class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-795"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/right-sidebar/"
+                                                class=""><span>Right Sidebar</span></a></li>
+                                        <li id="mobile-menu-item-798"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/left-sidebar/"
+                                                class=""><span>Left Sidebar</span></a></li>
+                                        <li id="mobile-menu-item-2240"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/no-sidebar/"
+                                                class=""><span>No Sidebar</span></a></li>
+                                        <li id="mobile-menu-item-796"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                href="https://grandprix.qodeinteractive.com/masonry/"
+                                                class=""><span>Masonry</span></a></li>
+                                        <li id="mobile-menu-item-226"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                            <a href="" class=""><span>Single Types</span></a><span
+                                                class="mobile_arrow"><i
+                                                    class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                            <ul class="sub_menu">
+                                                <li id="mobile-menu-item-227"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
+                                                        href="https://grandprix.qodeinteractive.com/2020-bmw-s1000rr-review-first-ride/"
+                                                        class=""><span>Standard Post</span></a></li>
+                                                <li id="mobile-menu-item-228"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
+                                                        href="https://grandprix.qodeinteractive.com/announces-returning-2020/"
+                                                        class=""><span>Gallery Post</span></a></li>
+                                                <li id="mobile-menu-item-229"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
+                                                        href="https://grandprix.qodeinteractive.com/tested-performance-accessories/"
+                                                        class=""><span>Quote Post</span></a></li>
+                                                <li id="mobile-menu-item-241"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
+                                                        href="https://grandprix.qodeinteractive.com/patent-filing-reveals-new-harley-davidson-pushrod-engine-design/"
+                                                        class=""><span>Link Post</span></a></li>
+                                                <li id="mobile-menu-item-230"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
+                                                        href="https://grandprix.qodeinteractive.com/motogp-silverstone-results-2019/"
+                                                        class=""><span>Audio Post</span></a></li>
+                                                <li id="mobile-menu-item-237"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
+                                                        href="https://grandprix.qodeinteractive.com/supermoto-two-ways/"
+                                                        class=""><span>Video Post</span></a></li>
+                                                <li id="mobile-menu-item-238"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
+                                                        href="https://grandprix.qodeinteractive.com/mo-tested-cali-track-days/"
+                                                        class=""><span>No Sidebar Post</span></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id="mobile-menu-item-127"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                    <a href="#" class=" mkdf-mobile-no-link"><span>Shop</span></a><span
+                                        class="mobile_arrow"><i class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-423"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom "><a
+                                                href="https://grandprix.qodeinteractive.com/shop" class=""><span>Product
+                                                    List</span></a></li>
+                                        <li id="mobile-menu-item-424"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom "><a
+                                                href="https://grandprix.qodeinteractive.com/product/jacket/"
+                                                class=""><span>Product Single</span></a></li>
+                                        <li id="mobile-menu-item-426"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                            <a href="" class=""><span>Shop Layouts</span></a><span
+                                                class="mobile_arrow"><i
+                                                    class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                            <ul class="sub_menu">
+                                                <li id="mobile-menu-item-458"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/shop/3-columns/"
+                                                        class=""><span>3 Columns</span></a></li>
+                                                <li id="mobile-menu-item-456"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/shop/4-columns/"
+                                                        class=""><span>4 Columns</span></a></li>
+                                                <li id="mobile-menu-item-457"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/shop/4-columns-wide/"
+                                                        class=""><span>4 Columns Wide</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="mobile-menu-item-427"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
+                                            <a href="" class=""><span>Shop Pages</span></a><span class="mobile_arrow"><i
+                                                    class="mkdf-sub-arrow arrow_carrot-right"></i></span>
+                                            <ul class="sub_menu">
+                                                <li id="mobile-menu-item-437"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/cart/"
+                                                        class=""><span>Cart</span></a></li>
+                                                <li id="mobile-menu-item-436"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/checkout/"
+                                                        class=""><span>Checkout</span></a></li>
+                                                <li id="mobile-menu-item-435"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                                        href="https://grandprix.qodeinteractive.com/my-account/"
+                                                        class=""><span>My account</span></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id="mobile-menu-item-2109"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                        href="https://grandprix.qodeinteractive.com/landing/"
+                                        class=""><span>Landing</span></a></li>
+                            </ul>
+                        </div>
+                    </nav> -->
+                </div>
+            </header>
+            <a id='mkdf-back-to-top' href='#'>
+                <span class="mkdf-icon-stack">
+                    <i class="mkdf-icon-ion-icon ion-ios-play "></i> </span>
+            </a>
+            <div class="mkdf-content" style="margin-top: -140px">
+                <div class="mkdf-content-inner">
+                    <div class="mkdf-title-holder mkdf-standard-type mkdf-title-va-window-top mkdf-preload-background mkdf-has-bg-image mkdf-bg-parallax"
+                        style="height: 500px;background-color: #000000;background-image:url(./images/footer/footer.jpg);"
+                        data-height="500">
+                        <div class="mkdf-title-image">
+                            <img itemprop="image" src="./images/footer/footer.jpg" alt="a" />
+                        </div>
+                        <div class="mkdf-title-wrapper">
+                            <div class="mkdf-title-inner">
+                                <div class="mkdf-grid">
+                                    <h6 class="mkdf-page-subtitle" style="color: #ffffff">Team</h6>
+                                    <h2 class="mkdf-page-title entry-title" style="color: #ffffff">Meet our founder</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mkdf-full-width">
+                        <div class="mkdf-full-width-inner">
+                            <div class="mkdf-grid-row">
+                                <div class="mkdf-page-content-holder mkdf-grid-col-12">
+                                    <div class="mkdf-row-grid-section-wrapper mkdf-disabled-bg-image-bellow-1024">
+                                        <div class="mkdf-row-grid-section">
+                                            <div
+                                                class="vc_row wpb_row vc_row-fluid vc_custom_1570695129522 vc_row-has-fill vc_row-o-content-middle vc_row-flex mkdf-row-animated-background-text mkdf-animated-background-text-horizontal-right mkdf-animated-background-text-middle">
+                                                <div class="mkdf-vertical-lines"><span
+                                                        class="mkdf-vertical-line"></span><span
+                                                        class="mkdf-vertical-line"></span><span
+                                                        class="mkdf-vertical-line"></span></div>
+                                                <div
+                                                    class="mkdf-animated-text-holder  mkdf-animated-text-4041 mkdf-animated-text-horizontal mkdf-animated-text-position-right mkdf-has-animation ">
+                                                    <div class="mkdf-animated-text" style="color: #f5f5f5"
+                                                        data-item-class="mkdf-animated-text-4041">
+                                                        <span class="mkdf-split-character">a</span> <span
+                                                            class="mkdf-split-character">b</span> <span
+                                                            class="mkdf-split-character">o</span> <span
+                                                            class="mkdf-split-character">u</span> <span
+                                                            class="mkdf-split-character">t</span>
+                                                    </div>
+                                                    <div class="mkdf-animated-text-overlay"
+                                                        style="background-image: url(https://grandprix.qodeinteractive.com/wp-content/uploads/2019/09/lines.png)">
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="vc_column-inner vc_custom_1569324557289">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="mkdf-row-grid-section-wrapper ">
+                                                                <div class="mkdf-row-grid-section">
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                                        <div
+                                                                            class="wpb_column vc_column_container vc_col-sm-12">
+                                                                            <div
+                                                                                class="vc_column-inner vc_custom_1567499344778">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div
+                                                                                        class="mkdf-item-showcase-specific-holder  mkdf-iss-text-left  mkdf-has-appear-animation">
+                                                                                        <div class="mkdf-iss-content">
+                                                                                            <div class="mkdf-iss-info-section"
+                                                                                                style="width: 70%;">
+                                                                                                <span
+                                                                                                    class="mkdf-iss-tagline">
+                                                                                                    Founder
+                                                                                                </span>
+                                                                                                <h2
+                                                                                                    class="mkdf-iss-title">
+                                                                                                    A R GANDHIKRISHNA
+                                                                                                </h2>
+                                                                                                <h6
+                                                                                                    class="mkdf-iss-title">
+                                                                                                    Film
+                                                                                                    Director, Story &
+                                                                                                    Screenplay Writer
+                                                                                                </h6>
+                                                                                                <p class="mkdf-is-text">
+                                                                                                    A R Gandhikrishna,
+                                                                                                    best known for the
+                                                                                                    Tamil film
+                                                                                                    ‘Chellamae’ is
+                                                                                                    revered for his
+                                                                                                    directorial
+                                                                                                    expertise, creative
+                                                                                                    vision, mellifluous
+                                                                                                    screenplay and
+                                                                                                    dialogues that have
+                                                                                                    stood the test of
+                                                                                                    time. Thirty years
+                                                                                                    of experience and a
+                                                                                                    name in the film
+                                                                                                    circuit that
+                                                                                                    commands respect, A
+                                                                                                    R Gandhikrishna’s
+                                                                                                    journey in the world
+                                                                                                    of cinema began with
+                                                                                                    nothing shy of the
+                                                                                                    term ‘blockbuster’.
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="mkdf-iss-media-section">
+                                                                                                <div
+                                                                                                    class="mkdf-iss-main-image-holder">
+                                                                                                    <img width="300"
+                                                                                                        height="450"
+                                                                                                        src="./images/logo/06.png"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        style="transform: scale(1.08)"
+                                                                                                        srcset="./images/logo/06.png 510w, ./images/logo/06.png 300w"
+                                                                                                        sizes="(max-width: 510px) 100vw, 510px" />
+                                                                                                </div>
+                                                                                            </div>
+
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mkdf-row-grid-section-wrapper ">
+                                                                <div class="mkdf-row-grid-section">
+                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                                        <div
+                                                                            class="wpb_column vc_column_container vc_col-sm-12">
+                                                                            <div
+                                                                                class="vc_column-inner vc_custom_1567499344778">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div
+                                                                                        class="mkdf-item-showcase-specific-holder  mkdf-iss-text-left  mkdf-has-appear-animation">
+                                                                                        <div class="mkdf-iss-content">
+                                                                                            <div class="mkdf-iss-info-section"
+                                                                                                style="width: 100%;">
+                                                                                                <p class="mkdf-is-text">
+                                                                                                    Coming from the Camp
+                                                                                                    of Ace Indian Film
+                                                                                                    Director Shankar S,
+                                                                                                    Gandhikrishna was
+                                                                                                    the pillar behind
+                                                                                                    Shankar’s
+                                                                                                    blockbuster & magnum
+                                                                                                    opus films like
+                                                                                                    ‘Gentleman’,
+                                                                                                    ‘Kaadhalam’,
+                                                                                                    ’Indian’, ‘Boys’ &
+                                                                                                    ‘Anniyan’. He has
+                                                                                                    worked in close
+                                                                                                    tandem with the ace
+                                                                                                    screenwriter,
+                                                                                                    storywriter and
+                                                                                                    master storyteller
+                                                                                                    Sujatha on these
+                                                                                                    projects and their
+                                                                                                    collaboration
+                                                                                                    continued further as
+                                                                                                    A R Gandhikrishan
+                                                                                                    started out on his
+                                                                                                    directorial
+                                                                                                    ventures.
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    A R Gandhikrishna’s
+                                                                                                    directorial debut
+                                                                                                    ‘Nila Kaalam’
+                                                                                                    received widespread
+                                                                                                    acclamation and
+                                                                                                    awards. ‘Anandha
+                                                                                                    Thandavam’, his next
+                                                                                                    was a Film
+                                                                                                    adaptation of
+                                                                                                    renowned writer
+                                                                                                    Sujatha’s serialised
+                                                                                                    novel ‘Pirivom
+                                                                                                    Santhippom’. A R
+                                                                                                    Gandhikrishna
+                                                                                                    ‘engages the
+                                                                                                    audience with
+                                                                                                    substance and style;
+                                                                                                    revels in handling a
+                                                                                                    sensitive screenplay
+                                                                                                    of strong emotions
+                                                                                                    with artistry
+                                                                                                    techniques’ as
+                                                                                                    quoted by critics
+                                                                                                    and industry patrons
+                                                                                                    is but a reflection
+                                                                                                    of his innate
+                                                                                                    temperance and
+                                                                                                    style.
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    The Films list; in
+                                                                                                    which the pivotal
+                                                                                                    contribution of AR
+                                                                                                    Gandhikrishna is
+                                                                                                    immensely
+                                                                                                    acknowledged by the
+                                                                                                    Film fraternity
+                                                                                                    includes Indian 2,
+                                                                                                    Anegan, Endhiran
+                                                                                                    (Telugu), Shivaji:
+                                                                                                    The Boss, Anniyan,
+                                                                                                    Boys, Nayak, Jeans,
+                                                                                                    12 B, Ullam
+                                                                                                    ketkumae, Kana
+                                                                                                    Kandaen, Karikalan,
+                                                                                                    Kaapaan. He has also
+                                                                                                    collaborated
+                                                                                                    frequently with
+                                                                                                    eminent names like
+                                                                                                    Jeeva & KV Anand.
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    A R Gandhikrishna
+                                                                                                    helmed the
+                                                                                                    prestigious film
+                                                                                                    ’Engineer’, with
+                                                                                                    Arvind Swamy and
+                                                                                                    Madhuri Dixit in the
+                                                                                                    lead, music by A R
+                                                                                                    Rahman,
+                                                                                                    Cinematography
+                                                                                                    handled by the ace
+                                                                                                    Cameraman Jeeva,
+                                                                                                    with a farsighted
+                                                                                                    theme was an
+                                                                                                    ambitious film that
+                                                                                                    created a lot of
+                                                                                                    buzz in the Indian
+                                                                                                    Film Circuit.
+                                                                                                    Madhuri Dixit, the
+                                                                                                    leading actress in
+                                                                                                    Hindi cinema in the
+                                                                                                    1990’s, played the
+                                                                                                    lead role for the
+                                                                                                    First time in a
+                                                                                                    South Indian movie
+                                                                                                    in ‘Engineer’.
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    With a commanding
+                                                                                                    voice in
+                                                                                                    deconstructing a
+                                                                                                    story in all its
+                                                                                                    layers and thirty
+                                                                                                    years of experience
+                                                                                                    backing his trained
+                                                                                                    hand in handling a
+                                                                                                    screenplay and
+                                                                                                    construction of a
+                                                                                                    film project in all
+                                                                                                    it’s glorious forms
+                                                                                                    with sheer precision
+                                                                                                    and vision, A R
+                                                                                                    Gandhikrishna is now
+                                                                                                    looking forward to
+                                                                                                    collaborate with the
+                                                                                                    directors,
+                                                                                                    screenwriters and
+                                                                                                    the visionaries of
+                                                                                                    the film fraternity,
+                                                                                                    striding forward in
+                                                                                                    his mission towards
+                                                                                                    pushing the
+                                                                                                    boundaries of
+                                                                                                    storytelling and the
+                                                                                                    meticulous shaping
+                                                                                                    up of a Film
+                                                                                                    Project.
+                                                                                                </p>
+                                                                                                <div
+                                                                                                    class="mkdf-iss-button">
+                                                                                                    <a itemprop="url"
+                                                                                                        href="#"
+                                                                                                        target="_self"
+                                                                                                        class="mkdf-btn mkdf-btn-medium mkdf-btn-simple-predefined">
+                                                                                                        <span
+                                                                                                            class="mkdf-btn-predefined-line-holder">
+                                                                                                            <span
+                                                                                                                class="mkdf-btn-line-hidden"></span>
+                                                                                                            <span
+                                                                                                                class="mkdf-btn-text">Contact
+                                                                                                                Us</span>
+                                                                                                            <span
+                                                                                                                class="mkdf-btn-line"></span>
+                                                                                                            <i
+                                                                                                                class="mkdf-btn-predefined-icon mkdf-icon-ion-icon ion-ios-play "></i>
+                                                                                                        </span> </a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1571218993752">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div
+                                                            class="mkdf-elements-holder   mkdf-one-column  mkdf-responsive-mode-768 ">
+                                                            <div class="mkdf-eh-item    "
+                                                                data-item-class="mkdf-eh-custom-5671"
+                                                                data-1400-1600="0% 0px 0px 3%"
+                                                                data-1025-1399="0px 0px 0px 8.8%"
+                                                                data-769-1024="0px 0px 0px 11%"
+                                                                data-681-768="0px 0px 0px 8%" data-680="0px 0px 0px 7%">
+                                                                <div class="mkdf-eh-item-inner">
+                                                                    <div class="mkdf-eh-item-content mkdf-eh-custom-5671"
+                                                                        style="padding: 0px 0px 0px 15.2%">
+                                                                        <div
+                                                                            class="mkdf-blog-slider-holder mkdf-bs-carousel-custom mkdf-pagination">
+                                                                            <ul class="mkdf-blog-slider mkdf-owl-slider"
+                                                                                data-number-of-items="3"
+                                                                                data-slider-padding="yes"
+                                                                                data-stage-padding="predefined"
+                                                                                data-enable-navigation="no"
+                                                                                data-enable-pagination="yes"
+                                                                                data-enable-autoplay="no">
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V1 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/01.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/01.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V2 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/02.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/02.jpg 300w, ./images/movietittle/02.jpg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V3 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/03.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/03.jpg 300w, ./images/movietittle/03.jpg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/04.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/04.jpg 300w, ./images/movietittle/04.jpg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/05.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/05.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/06.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/06.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/07.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/07.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/08.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/08.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/09.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/09.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/10.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/10.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/11.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/11.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/12.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/12.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/13.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/13.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="mkdf-blog-slider-item">
+                                                                                    <div
+                                                                                        class="mkdf-blog-slider-item-inner">
+                                                                                        <div class="mkdf-item-image">
+                                                                                            <span
+                                                                                                class="mkdf-post-custom-mark">
+                                                                                                V4 </span>
+                                                                                            <div
+                                                                                                class="mkdf-post-image">
+                                                                                                <a itemprop="url"
+                                                                                                    href="#"
+                                                                                                    title="2019 Prescott Valley">
+                                                                                                    <img width="300"
+                                                                                                        height="200"
+                                                                                                        src="./images/movietittle/14.jpg"
+                                                                                                        class="attachment-full size-full"
+                                                                                                        alt="a"
+                                                                                                        loading="lazy"
+                                                                                                        srcset="./images/movietittle/14.jpg 300w, ./images/blog/b1.jpeg 200w"
+                                                                                                        sizes="(max-width: 300px) 100vw, 1000px" />
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <div class="mkdf-custom-pagination-holder">
+                                                                                <div
+                                                                                    class="mkdf-custom-pagination-container owl-dots">
+                                                                                </div>
+                                                                                <div
+                                                                                    class="mkdf-pagination-line-holder">
+                                                                                    <span
+                                                                                        class="mkdf-pagination-line"></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="mkdf-page-footer ">
+                <div class="mkdf-footer-bottom-holder">
+                    <div class="mkdf-footer-bottom-inner mkdf-grid">
+                        <div class="mkdf-grid-row mkdf-footer-bottom-alignment-center">
+                            <div class="mkdf-grid-col-12">
+                                <div id="text-9" class="widget mkdf-footer-bottom-column-1 widget_text">
+                                    <div class="textwidget">
+                                        <p><span
+                                                style="font-family: Ubuntu; font-size: 11px; font-weight: 400; line-height: 30px;">©
+                                                2021 </span> <a
+                                                style="font-family: Ubuntu; font-size: 11px; font-weight: 400; line-height: 30px;"
+                                                href="#" target="_blank" rel="noopener">VVV SCRIPT ANALYSER</a><span
+                                                style="font-family: Ubuntu; font-size: 11px; font-weight: 400; line-height: 30px;">,
+                                                ALL RIGHTS RESERVED</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <section class="mkdf-side-menu">
+        <div class="mkdf-side-menu-holder">
+            <a class="mkdf-close-side-menu mkdf-close-side-menu-predefined" href="#">
+                <span aria-hidden="true" class="mkdf-icon-font-elegant icon_close "></span> </a>
+            <div id="text-11" class="widget mkdf-sidearea widget_text">
+                <div class="textwidget">
+                    <p><span
+                            style="font-family: Rajdhani; font-size: 45px; font-weight: bold; line-height: 45px; color: #000000; letter-spacing: 0.25px;">VVV
+                            Script Analyser</span>
+                    </p>
+                </div>
+            </div>
+            <div id="text-14" class="widget mkdf-sidearea widget_text">
+                <div class="textwidget">
+                    <p>Lorem ipsum dolor sit amet, qui aperiam vituperatoribus at. Aliquip percipit ei vix, ceteros
+                        mentitum reprehendunt eu est.</p>
+                </div>
+            </div>
+            <div class="widget mkdf-separator-widget">
+                <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                    <div class="mkdf-separator" style="border-style: solid;margin-bottom: 15px"></div>
+                </div>
+            </div>
+            <div id="mkdf_instagram_widget-7" class="widget mkdf-sidearea widget_mkdf_instagram_widget">
+                <div class="mkdf-widget-title-holder">
+                    <h4 class="mkdf-widget-title">instagram</h4>
+                </div>
+                <ul class="mkdf-instagram-feed clearfix mkdf-col-4 mkdf-instagram-gallery mkdf-tiny-space">
+                    <li>
+                        <a href="https://www.instagram.com/p/CF9PByvJkJQ/" target="_blank">
+                            <img src="https://scontent-atl3-2.cdninstagram.com/v/t51.29350-15/120735948_386327252390339_922108302805006099_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=roF3O0nJezAAX_maXzm&amp;_nc_ht=scontent-atl3-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=e87c1a030a5629d5e90b5d8b441e0cad&amp;oe=615EFA41"
+                                alt="" /> </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/p/CF9O_4Fpjmp/" target="_blank">
+                            <img src="https://scontent-atl3-2.cdninstagram.com/v/t51.29350-15/120926141_115599153499071_8764322709986901748_n.jpg?_nc_cat=103&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=LhElxAFgiDwAX-TZ7_J&amp;_nc_ht=scontent-atl3-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=de5f27e3fcd4a8ae22d888578cc4b032&amp;oe=61603B20"
+                                alt="" /> </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/p/CF9O-SspEu9/" target="_blank">
+                            <img src="https://scontent-atl3-2.cdninstagram.com/v/t51.29350-15/120742206_2373089042985000_3304936249154092697_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=UuPQw13O9XYAX-Z2nuq&amp;_nc_ht=scontent-atl3-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=fbcb44301b3b9d338e0f3feb6fb6a661&amp;oe=615F1AB8"
+                                alt="" /> </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/p/CF9O9LfpNIc/" target="_blank">
+                            <img src="https://scontent-atl3-2.cdninstagram.com/v/t51.29350-15/120579549_824443528095729_2192691585990243511_n.jpg?_nc_cat=100&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=safy0JZHr4EAX_M98FX&amp;_nc_ht=scontent-atl3-2.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;oh=63a957e1ee6dc4ef3f952b2a3b465e04&amp;oe=615FAD81"
+                                alt="" /> </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="widget mkdf-separator-widget">
+                <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                    <div class="mkdf-separator" style="border-style: solid;margin-bottom: 13px"></div>
+                </div>
+            </div>
+            <div id="text-13" class="widget mkdf-sidearea widget_text">
+                <div class="mkdf-widget-title-holder">
+                    <h4 class="mkdf-widget-title">QUICK INFO</h4>
+                </div>
+                <div class="textwidget"></div>
+            </div>
+            <a class="mkdf-icon-widget-holder" href="#" target="_self" style="margin: -21px 30px 0px 0px">
+                <span class="mkdf-icon-element icon_clock_alt" style="color: #ed1d24;font-size: 20px"></span> <span
+                    class="mkdf-icon-text " style="color: #808080">Monday-Friday: 9am to 5pm;</span> </a>
+            <a class="mkdf-icon-widget-holder" href="#" target="_self" style="margin: -27px 0px 0px 33px">
+                <span class="mkdf-icon-text mkdf-no-icon" style="color: #808080">Satuday: 10am to 2pm</span> </a>
+            <div class="widget mkdf-separator-widget">
+                <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                    <div class="mkdf-separator" style="border-style: solid;margin-top: 0px"></div>
+                </div>
+            </div>
+            <a class="mkdf-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#ed1d24"
+                href="https://www.google.com/maps/place/7300+Colonial+Rd,+Brooklyn,+NY+11209,+USA/@40.6341271,-74.0347961,17z/data=!3m1!4b1!4m5!3m4!1s0x89c24ff82ba70fed:0x9510b406c4651972!8m2!3d40.634123!4d-74.0326074"
+                target="_blank" style="margin: -23px 30px 0px 0px">
+                <span class="mkdf-icon-element icon_mail_alt" style="color: #ed1d24;font-size: 20px"></span> <span
+                    class="mkdf-icon-text " style="color: #808080">7300-7398 Colonial Rd, Brooklyn</span> </a>
+            <a class="mkdf-icon-widget-holder"
+                href="https://www.google.com/maps/place/242+Wythe+Ave+4,+Brooklyn,+NY+11249,++/@40.717574,-73.9650806,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259612cbfffff:0x172ec665dceec26b!8m2!3d40.717574!4d-73.9628919"
+                target="_blank" style="margin: -27px 0px 0px 33px">
+                <span class="mkdf-icon-text mkdf-no-icon" style="color: #808080">242 Wythe Ave #4, Brooklyn</span> </a>
+            <div class="widget mkdf-separator-widget">
+                <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                    <div class="mkdf-separator" style="border-style: solid;margin-top: 0px"></div>
+                </div>
+            </div>
+            <a class="mkdf-icon-widget-holder" href="tel:1231245678901" target="_self"
+                style="margin: -21px 80px 0px 0px">
+                <span class="mkdf-icon-element icon-phone" style="color: #ed1d24;font-size: 20px"></span> <span
+                    class="mkdf-icon-text " style="color: #808080">+ (123) 124-567-8901</span> </a>
+            <a class="mkdf-icon-widget-holder" href="tel:1231245678901" target="_self"
+                style="margin: -27px 0px 0px 33px">
+                <span class="mkdf-icon-text mkdf-no-icon" style="color: #808080">+ (123) 124-567-8901</span> </a>
+            <div class="widget mkdf-separator-widget">
+                <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                    <div class="mkdf-separator" style="border-style: solid;margin-top: 0px"></div>
+                </div>
+            </div>
+            <a class="mkdf-icon-widget-holder"
+                href="/cdn-cgi/l/email-protection#6f081d0e010b1f1d06172f1e000b0a06011b0a1d0e0c1b06190a410c0002"
+                target="_self" style="margin: -23px 30px 0px 0px">
+                <span class="mkdf-icon-element icon_mail_alt" style="color: #ed1d24;font-size: 20px"></span> <span
+                    class="mkdf-icon-text " style="color: #808080"><span class="__cf_email__"
+                        data-cfemail="8deaffece3e9fdffe4f5cdfce2e9e8e4e3f9e8ffeceef9e4fbe8a3eee2e0">[email&#160;protected]</span></span>
+            </a>
+            <a class="mkdf-icon-widget-holder"
+                href="/cdn-cgi/l/email-protection#412633202f253133283901302e2524282f3524332022352837246f222e2c"
+                target="_self" style="margin: -27px 0px 0px 33px">
+                <span class="mkdf-icon-text mkdf-no-icon" style="color: #808080"><span class="__cf_email__"
+                        data-cfemail="88effae9e6ecf8fae1f0c8f9e7ecede1e6fcedfae9ebfce1feeda6ebe7e5">[email&#160;protected]</span></span>
+            </a>
+        </div>
+    </section>
+    <div class="rbt-toolbar" data-theme="GrandPrix" data-featured="" data-button-position="20%"
+        data-button-horizontal="right" data-button-alt="no"></div>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTQ2BTD" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/html" id="wpb-modifications"></script>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:500%7CRajdhani:700%7CUbuntu:300%7CRoboto:400"
+        rel="stylesheet" property="stylesheet" media="all" type="text/css">
+    <script type="text/javascript">
+        var c = document.body.className;
+        c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+        document.body.className = c;
+    </script>
+    <script type="text/javascript">
+        if (typeof revslider_showDoubleJqueryError === "undefined") {
+            function revslider_showDoubleJqueryError(sliderID) {
+                var err = "<div class='rs_error_message_box'>";
+                err += "<div class='rs_error_message_oops'>Oops...</div>";
+                err += "<div class='rs_error_message_content'>";
+                err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+                err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+                err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+                err += "</div>";
+                err += "</div>";
+                var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
+            }
+        }
+    </script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/b441f.js"></script>
+    <script type='text/javascript' id='contact-form-7-js-extra'>
+        /* <![CDATA[ */
+        var wpcf7 = { "api": { "root": "https:\/\/grandprix.qodeinteractive.com\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
+/* ]]> */
+    </script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/b68ea.js"></script>
+    <script type='text/javascript' src='https://export.qodethemes.com/_toolbar/assets/js/rbt-modules.js?ver=5.7.3'
+        id='rabbit_js-js'></script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/63c68.js"></script>
+    <script type='text/javascript' id='woocommerce-js-extra'>
+        /* <![CDATA[ */
+        var woocommerce_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%" };
+/* ]]> */
+    </script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/63a69.js"></script>
+    <script type='text/javascript' id='wc-cart-fragments-js-extra'>
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_1cb4e7c06d90820c243c6bf49c0e4137", "fragment_name": "wc_fragments_1cb4e7c06d90820c243c6bf49c0e4137", "request_timeout": "5000" };
+/* ]]> */
+    </script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/d0aba.js"></script>
+    <script type='text/javascript' id='qi-addons-for-elementor-script-js-extra'>
+        /* <![CDATA[ */
+        var qodefQiAddonsGlobal = { "vars": { "adminBarHeight": 0, "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>", "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>", "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>" } };
+/* ]]> */
+    </script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/f4d6a.js"></script>
+    <script type='text/javascript' id='mediaelement-core-js-before'>
+        var mejsL10n = { "language": "en", "strings": { "mejs.download-file": "Download File", "mejs.install-flash": "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/", "mejs.fullscreen": "Fullscreen", "mejs.play": "Play", "mejs.pause": "Pause", "mejs.time-slider": "Time Slider", "mejs.time-help-text": "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.", "mejs.live-broadcast": "Live Broadcast", "mejs.volume-help-text": "Use Up\/Down Arrow keys to increase or decrease volume.", "mejs.unmute": "Unmute", "mejs.mute": "Mute", "mejs.volume-slider": "Volume Slider", "mejs.video-player": "Video Player", "mejs.audio-player": "Audio Player", "mejs.captions-subtitles": "Captions\/Subtitles", "mejs.captions-chapters": "Chapters", "mejs.none": "None", "mejs.afrikaans": "Afrikaans", "mejs.albanian": "Albanian", "mejs.arabic": "Arabic", "mejs.belarusian": "Belarusian", "mejs.bulgarian": "Bulgarian", "mejs.catalan": "Catalan", "mejs.chinese": "Chinese", "mejs.chinese-simplified": "Chinese (Simplified)", "mejs.chinese-traditional": "Chinese (Traditional)", "mejs.croatian": "Croatian", "mejs.czech": "Czech", "mejs.danish": "Danish", "mejs.dutch": "Dutch", "mejs.english": "English", "mejs.estonian": "Estonian", "mejs.filipino": "Filipino", "mejs.finnish": "Finnish", "mejs.french": "French", "mejs.galician": "Galician", "mejs.german": "German", "mejs.greek": "Greek", "mejs.haitian-creole": "Haitian Creole", "mejs.hebrew": "Hebrew", "mejs.hindi": "Hindi", "mejs.hungarian": "Hungarian", "mejs.icelandic": "Icelandic", "mejs.indonesian": "Indonesian", "mejs.irish": "Irish", "mejs.italian": "Italian", "mejs.japanese": "Japanese", "mejs.korean": "Korean", "mejs.latvian": "Latvian", "mejs.lithuanian": "Lithuanian", "mejs.macedonian": "Macedonian", "mejs.malay": "Malay", "mejs.maltese": "Maltese", "mejs.norwegian": "Norwegian", "mejs.persian": "Persian", "mejs.polish": "Polish", "mejs.portuguese": "Portuguese", "mejs.romanian": "Romanian", "mejs.russian": "Russian", "mejs.serbian": "Serbian", "mejs.slovak": "Slovak", "mejs.slovenian": "Slovenian", "mejs.spanish": "Spanish", "mejs.swahili": "Swahili", "mejs.swedish": "Swedish", "mejs.tagalog": "Tagalog", "mejs.thai": "Thai", "mejs.turkish": "Turkish", "mejs.ukrainian": "Ukrainian", "mejs.vietnamese": "Vietnamese", "mejs.welsh": "Welsh", "mejs.yiddish": "Yiddish" } };
+    </script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/864c2.js"></script>
+    <script type='text/javascript' id='mediaelement-js-extra'>
+        /* <![CDATA[ */
+        var _wpmejsSettings = { "pluginPath": "\/wp-includes\/js\/mediaelement\/", "classPrefix": "mejs-", "stretching": "responsive" };
+/* ]]> */
+    </script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/2c46c.js"></script>
+    <script type='text/javascript'
+        src='//maps.googleapis.com/maps/api/js?key=AIzaSyBuqX1AKgCIwsFhnlR-bH4bh7JAUyS5-xI&#038;ver=5.7.3'
+        id='grandprix-mikado-google-map-api-js'></script>
+    <script type='text/javascript' id='grandprix-mikado-modules-js-extra'>
+        /* <![CDATA[ */
+        var mkdfGlobalVars = { "vars": { "mkdfAddForAdminBar": 0, "mkdfElementAppearAmount": -100, "mkdfAjaxUrl": "https:\/\/grandprix.qodeinteractive.com\/wp-admin\/admin-ajax.php", "sliderNavPrevArrow": "ion-ios-play", "sliderNavNextArrow": "ion-ios-play", "ppExpand": "Expand the image", "ppNext": "Next", "ppPrev": "Previous", "ppClose": "Close", "mkdfStickyHeaderHeight": 0, "mkdfStickyHeaderTransparencyHeight": 70, "mkdfTopBarHeight": 0, "mkdfLogoAreaHeight": 0, "mkdfMenuAreaHeight": 140, "mkdfMobileHeaderHeight": 70 } };
+        var mkdfPerPageVars = { "vars": { "mkdfMobileHeaderHeight": 70, "mkdfStickyScrollAmount": 0, "mkdfHeaderTransparencyHeight": 0, "mkdfHeaderVerticalWidth": 0 } };
+/* ]]> */
+    </script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/052b5.js"></script>
+    <script type='text/javascript' id='grandprix-mikado-modules-js-after'>
+        setTimeout(function () {
+            jQuery(".page-id-459  .mkdf-normal-logo").css("opacity", "0");
+            jQuery(".page-id-459  .mkdf-light-logo").css("opacity", "1");
+            jQuery(".mkdf-ccmc-prepare").addClass('mkdf-ccmc');
+        }, 900);
+
+
+    </script>
+    <script src="https://grandprix.qodeinteractive.com/wp-content/cache/minify/38b89.js"></script>
+</body>
+
+</html>
