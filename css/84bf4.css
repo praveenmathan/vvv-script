@@ -3090,7 +3090,7 @@ body:not(.elementor-editor-active) .qodef-landing-intro-title.qodef-qi--appeared
 
 /*
 Theme Name: GrandPrix
-Theme URI: https://grandprix.qodeinteractive.com
+Theme URI: #
 Description: GrandPrix - Motorcycle WordPress Theme
 Author: Mikado Themes
 Author URI: http://themeforest.net/user/mikado-themes
@@ -3362,10 +3362,10 @@ body {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 27px;
-	color: grey;
+	color: #333;
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased;
-	overflow-x: hidden!important
+	overflow-x: hidden!important;
 }
 
 h1 {
