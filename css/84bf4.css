@@ -14919,7 +14919,7 @@ body .pp_pic_holder a.pp_arrow_previous {
 	height: auto!important;
 	margin: 0!important;
 	color: grey;
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	font-size: 0;
 	line-height: 1;
 	text-indent: 0;
@@ -14960,7 +14960,7 @@ body .pp_pic_holder a.pp_previous {
 	margin: 0!important;
 	background: 0 0!important;
 	color: #000;
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	font-size: 40px;
 	line-height: 1;
 	text-indent: -9999px!important;
@@ -15371,7 +15371,7 @@ body .select2-container--default .select2-selection--single .select2-selection__
 	display: block;
 	line-height: inherit;
 	content: '\33';
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	font-style: normal
 }
 
@@ -16356,7 +16356,7 @@ button.swiper-pagination-bullet {
 	top: calc(50% - 8px);
 	right: 20px;
 	display: block;
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	font-size: 15px;
 	line-height: 1
 }
@@ -16506,7 +16506,7 @@ aside.mkdf-sidebar .widget_icl_lang_sel_widget .wpml-ls-legacy-dropdown-click {
 	position: absolute;
 	right: -15px;
 	top: 0;
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	font-size: 15px
 }
 
@@ -17085,7 +17085,7 @@ aside.mkdf-sidebar .widget_icl_lang_sel_widget .wpml-ls-legacy-dropdown-click {
 .mkdf-blog-video-holder .mejs-container .mejs-controls button:before {
 	color: #fff;
 	display: block;
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	font-size: 15px;
 	height: 40px;
 	left: 0;
@@ -20966,7 +20966,7 @@ hr+h2:before {
 	top: 0;
 	right: -6px;
 	content: '\35';
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	font-size: 20px;
 	font-weight: 400;
 	font-style: normal;
@@ -26637,7 +26637,7 @@ a.mkdf-icon-widget-holder:hover .mkdf-icon-text {
 .mkdf-comment-rating-box .mkdf-star-rating {
 	position: relative;
 	display: inline-block;
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	color: #c8c8c8;
 	font-size: 16px;
 	letter-spacing: 5px;
@@ -29825,7 +29825,7 @@ div:not(.mkdf-row-grid-section)>.vc_row>.mkdf-animated-text-holder.mkdf-animated
 
 .mkdf-horizontal-timeline .mkdf-ht-nav-navigation a:after {
 	display: block;
-	font-family: ElegantIcons
+	font-family: 'ElegantIcons'
 }
 
 .mkdf-horizontal-timeline .mkdf-ht-nav-navigation a.mkdf-prev {
@@ -54161,7 +54161,7 @@ div.woocommerce textarea:-ms-input-placeholder {
 .mkdf-product-info .mkdf-pi-rating,
 .mkdf-woo-single-page .woocommerce-tabs #reviews .comment-respond .stars a:before,
 .woocommerce .star-rating {
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	font-size: 10px;
 	line-height: 1;
 	letter-spacing: 4px;
@@ -56182,7 +56182,7 @@ div.woocommerce .mkdf-quantity-buttons .mkdf-quantity-plus {
 	-webkit-transition: color .15s ease-in-out;
 	-o-transition: color .15s ease-in-out;
 	transition: color .15s ease-in-out;
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	speak: none;
 	font-style: normal;
 	font-weight: 400;
@@ -57370,7 +57370,7 @@ div.woocommerce>.single-product .woocommerce-tabs #reviews .comment-respond .sta
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	content: "\e031";
 	font-size: 12px;
 	line-height: 1;
@@ -57387,7 +57387,7 @@ div.woocommerce>.single-product .woocommerce-tabs #reviews .comment-respond .sta
 	right: 0;
 	bottom: 7px;
 	display: block;
-	font-family: ElegantIcons;
+	font-family: 'ElegantIcons';
 	font-size: 12px;
 	line-height: 1;
 	letter-spacing: 2px;
