@@ -3358,10 +3358,10 @@ html {
 }
 
 body {
-	font-family: Ubuntu, sans-serif;
-	font-size: 16px;
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
 	font-weight: 300;
-	line-height: 27px;
+	line-height: 30px;
 	color: #333;
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased;
@@ -23299,7 +23299,7 @@ nav.mkdf-fullscreen-menu>ul>li>a {
 }
 
 .mkdf-side-menu-slide-from-opener .mkdf-side-menu .mkdf-side-menu-holder {
-	padding: 64px 60px
+	padding: 64px 45px
 }
 
 .mkdf-side-menu-slide-from-opener .mkdf-wrapper {
@@ -31127,7 +31127,7 @@ div:not(.mkdf-row-grid-section)>.vc_row>.mkdf-animated-text-holder.mkdf-animated
 }
 
 .mkdf-item-showcase-holder .mkdf-is-item.mkdf-is-left .mkdf-is-content {
-	padding: 0 13px 0 0
+	padding: 0 20px 0 0
 }
 
 .mkdf-item-showcase-holder .mkdf-is-item.mkdf-is-right {
@@ -31143,7 +31143,7 @@ div:not(.mkdf-row-grid-section)>.vc_row>.mkdf-animated-text-holder.mkdf-animated
 }
 
 .mkdf-item-showcase-holder .mkdf-is-item.mkdf-is-right .mkdf-is-content {
-	padding: 0 0 0 13px
+	padding: 0 0 0 20px
 }
 
 .mkdf-item-showcase-holder .mkdf-is-item.mkdf-appeared {
@@ -60251,4 +60251,15 @@ div.woocommerce>.single-product .upsells.products .product .mkdf-pl-text-wrapper
 
 .mkdf-vertical-menu-area .mkdf-sc-dropdown {
 	display: none!important
+}
+
+.nature-of-the-work-icon {
+	font-size: 50px;
+    color: #acacac;
+}
+
+.pre-production-icon {
+	font-size: 75px;
+    color: #A9A9A9;
+	padding-bottom: 10px;
 }
