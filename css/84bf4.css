@@ -30846,7 +30846,7 @@ div:not(.mkdf-row-grid-section)>.vc_row>.mkdf-animated-text-holder.mkdf-animated
 }
 
 .mkdf-item-showcase-specific-holder .mkdf-iss-info-section {
-	width: calc(42.7% - 60px)
+	width: calc(50% - 60px)
 }
 
 .mkdf-item-showcase-specific-holder .mkdf-iss-info-section .mkdf-iss-button {
